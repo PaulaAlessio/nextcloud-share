@@ -42,7 +42,7 @@ This Python script enables you to share a file in a Nextcloud instance via the N
     echo "nextcloud:your-username:your-password" > creds.txt
     openssl enc -aes-256-cbc -salt -pbkdf2 -in creds.txt -out creds.enc
     rm creds.txt  # Ensure you remove the plaintext credentials after encryption.
-```
+   ```
 
 ### Windows
 
