@@ -1,0 +1,18 @@
+[project]
+name = "nextcloud_share_pperez"
+version = "0.0.1"
+authors = [
+  { name="Paula Pérez", email="pperezrubio@educa.madrid.com" },
+]
+description = "Share a Nextcloud file and retrieving its URL"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/PaulaAlessio/nextcloud-share"
+Issues = "https://github.com/PaulaAlessio/nextcloud-share/issues"
